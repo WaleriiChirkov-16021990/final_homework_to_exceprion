@@ -1,8 +1,20 @@
 package Presenter.Console_terminal;
 
+import Model.Check_correct_user_input.Check_date.Checker_date;
+import Model.Check_correct_user_input.Check_date.Check_format_date.Exception_of_error_enter_date.Error_date_format;
+import Model.Check_correct_user_input.Check_gender.Checker_gender;
+import Model.Check_correct_user_input.Check_name_input.Checker_full_name;
+import Model.Check_correct_user_input.Check_name_input.Exception_of_error_enter_name.Error_name_format;
+import Model.Check_correct_user_input.Check_size_data.Checker_size;
+import Model.Check_correct_user_input.Check_size_data.Exception_of_error_size_array.Error_size_array;
+import Model.Check_correct_user_input.Check_telephone_number.Checker_telephone_num;
+import Model.Check_correct_user_input.Check_telephone_number.Exception_of_error_enter_telephone_number.Error_telephone_number_input;
+import Model.Exit_application;
 import Model.User_input_console_1.Inputer_for_console;
 import View.Console_terminal.Printer;
 
+import java.util.Arrays;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Application {
@@ -13,26 +25,34 @@ public class Application {
 	
 	
 	public void run() {
+		boolean runing = true;
 		try (Scanner scanner = new Scanner(System.in)) {
-			Printer.to_print("Следуйте указаниям\n");
-			while (true) {
-				Printer.to_print(Printer.exit);
-				string = new Inputer_for_console(scanner).u_input();
-				if (string.replace(" ", "").equals("2")) break;
+			Printer.to_print(Printer.next_help);
+			while (runing) {
+				runing = new Exit_application().select_user(scanner);
+				if (!runing) break;
 				Printer.to_print(Printer.first_menu);
 				string = new Inputer_for_console(scanner).u_input();
 				user = string.split(" ");
-				System.out.println(user.length);
-				if (user.length < 6) {
-					throw new IllegalArgumentException("Вы указали меньше параметров, чем было необходимо");
-				} else if (user.length > 6) {
-					throw new IllegalArgumentException("Вы указали лишние параметры");
-				}
+				new Checker_size().run_check(user);
+				new Checker_date().run_check(user);
+				new Checker_full_name().run_check(user);
+				new Checker_gender().run_check(user);
+				new Checker_telephone_num().run_check(user);
 				
 			}
-		} catch (IllegalArgumentException e) {
-			Printer.to_print("Количество параметров не соответствует требованию (6)");
-			System.out.println(e.getStackTrace());
+		} catch (Error_size_array e) {
+			throw new Error_size_array(e.getMessage() + "\n" + Arrays.toString(e.getStackTrace()));
+		} catch (Error_date_format date_format) {
+			throw new Error_date_format(date_format.getMessage() + "\n" + Arrays.toString(date_format.getStackTrace()));
+		} catch (Error_name_format name_format) {
+			throw new Error_name_format(name_format.getMessage() + "\n" + Arrays.toString(name_format.getStackTrace()));
+		} catch (Error_telephone_number_input number_input) {
+			throw new Error_telephone_number_input(number_input.getMessage() + "\n" + Arrays.toString(number_input.getStackTrace()));
+		} catch (NoSuchElementException suchElementException) {
+			throw new IllegalArgumentException(Printer.error_input + "\n" + Arrays.toString(suchElementException.getStackTrace()));
+		} catch (NullPointerException nullPointerException) {
+			throw new NullPointerException(nullPointerException.getMessage() + "\n" + Arrays.toString(nullPointerException.getStackTrace()));
 		}
 	}
 	

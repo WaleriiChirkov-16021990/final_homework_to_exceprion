@@ -1,4 +1,4 @@
-package Abstract;
+package Model.Abstract;
 
 public abstract class Human implements Callable,Bornable {
 	private String last_name;

@@ -1,4 +1,4 @@
-package Abstract;
+package Model.Abstract;
 
 public interface Bornable {
 	void add_date();

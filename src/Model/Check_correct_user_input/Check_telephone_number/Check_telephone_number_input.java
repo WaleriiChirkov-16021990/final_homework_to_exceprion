@@ -1,4 +1,4 @@
-package Model.Check_correct_user_input;
+package Model.Check_correct_user_input.Check_telephone_number;
 
 public class Check_telephone_number_input {
 	

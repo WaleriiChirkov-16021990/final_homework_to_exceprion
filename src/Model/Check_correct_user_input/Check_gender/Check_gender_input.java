@@ -1,4 +1,4 @@
-package Model.Check_correct_user_input;
+package Model.Check_correct_user_input.Check_gender;
 
 public class Check_gender_input {
 	public static boolean is_gender(String s){

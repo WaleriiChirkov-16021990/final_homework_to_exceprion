@@ -1,4 +1,4 @@
-package Model.Check_correct_user_input;
+package Model.Check_correct_user_input.Check_date.Check_format_date;
 
 public class Check_date_input {
 	
