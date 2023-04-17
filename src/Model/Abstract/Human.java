@@ -54,4 +54,7 @@ public abstract class Human implements Callable,Bornable {
 	}
 	
 	
+	public abstract void add_date(String date);
+	
+	public abstract void add_number(String number);
 }

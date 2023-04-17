@@ -11,6 +11,7 @@ import Model.Check_correct_user_input.Check_size_data.Exception_of_error_size_ar
 import Model.Check_correct_user_input.Check_telephone_number.Checker_telephone_num;
 import Model.Check_correct_user_input.Check_telephone_number.Exception_of_error_enter_telephone_number.Error_telephone_number_input;
 import Model.Exit_application;
+import Model.User;
 import Model.User_input_console_1.Inputer_for_console;
 import View.Console_terminal.Printer;
 
@@ -40,6 +41,8 @@ public class Application {
 				new Checker_full_name().run_check(user);
 				new Checker_gender().run_check(user);
 				new Checker_telephone_num().run_check(user);
+				User user1 = new User(user);
+				
 				
 			}
 		} catch (Error_size_array e) {

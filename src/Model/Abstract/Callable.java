@@ -1,6 +1,6 @@
 package Model.Abstract;
 
 public interface Callable {
-	public void add_number();
+	void add_number(String s);
 	
 }

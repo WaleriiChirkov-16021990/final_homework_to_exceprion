@@ -15,7 +15,7 @@ public class Check_value_years {
 		}
 		int current_year = Year.now().getValue();
 		if (Integer.parseInt(date[2]) < current_year-140 || Integer.parseInt(date[2]) > current_year){
-			throw new Error_date_value("Указан не корректный год");
+			throw new Error_date_value("Указан не корректный год \nГод рождения не может быть ранее 140 давности, и не может быть позднее текущего года");
 		}
 	}
 }
