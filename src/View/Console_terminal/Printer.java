@@ -22,6 +22,12 @@ public class Printer {
 	public static final String next_help = "\nСледуйте указаниям";
 	public static final String null_enter = "\nВы не ввели данные пользователя";
 	public static final String error_input = "\nВы ввели мало данных или забыли про пробелы!";
+	public static final String error_add_in_exist_file = "\n Ошибка добавления записи в существующий файл: ";
+	public static final String error_create_file = "\n Ошибка при создании файла: ";
+	public static final String path_to_local_file = "src/Model/Local_file/";
+	public static final String to_exit = "2";
+	public static final String scanner_is_crash = "Сканер не действителен!";
+	
 	
 	
 	public static void to_print(String message) {

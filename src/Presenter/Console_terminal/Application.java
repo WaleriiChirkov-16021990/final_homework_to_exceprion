@@ -60,8 +60,10 @@ public class Application {
 			throw new NullPointerException(nullPointerException.getMessage() + "\n" + Arrays.toString(nullPointerException.getStackTrace()));
 		} catch (Error_date_value error_date_value) {
 			throw new Error_date_value(error_date_value.getMessage() + "\n" + Arrays.toString(error_date_value.getStackTrace()), error_date_value.getCause());
-		} catch (IOException e) {
-			throw new RuntimeException(e);
+		} catch (IOException ioException) {
+			throw new RuntimeException(Arrays.toString(ioException.getStackTrace()));
+		} catch (RuntimeException runtimeException) {
+			throw new RuntimeException(runtimeException.getMessage(), runtimeException.getCause());
 		}
 	}
 	

@@ -10,9 +10,9 @@ import java.io.IOException;
 public class Write_to_local_file {
 	public void writex(Human user) throws IOException {
 		if (new Check_exist_file().is_exist_file(user.getLast_name())) {
-			new Write_new_lastname_file().writex(user);
-		} else {
 			new Add_current_name_in_exist_file().writex(user);
+		} else {
+			new Write_new_lastname_file().writex(user);
 		}
 	}
 }

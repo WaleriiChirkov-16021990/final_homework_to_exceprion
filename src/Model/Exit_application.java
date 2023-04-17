@@ -9,7 +9,7 @@ public class Exit_application {
 	public boolean select_user(Scanner scanner) {
 		Printer.to_print(Printer.exit);
 		String string = new Inputer_for_console(scanner).u_input();
-		if (string.replace(" ", "").equals("2")) {
+		if (string.replace(" ", "").equals(Printer.to_exit)) {
 			return false;
 		}
 		return true;
