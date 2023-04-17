@@ -1,5 +1,9 @@
 package View.Console_terminal;
 
+/**
+ * Данный класс отвечает за получение актуальной информации пользователю,
+ * при взаимодействии с приложением через консоль.
+ */
 public class Printer {
 	
 	public static final String exit = "\n1.Ввод данных нового пользователя \n2.Выход";
@@ -27,9 +31,21 @@ public class Printer {
 	public static final String path_to_local_file = "src/Model/Local_file/";
 	public static final String to_exit = "2";
 	public static final String scanner_is_crash = "Сканер не действителен!";
+	public static final String  not_date = "Отсутствует дата";
+	public static final String  not_gender_data = "Отсутствует переменная указывающая на половую принадлежность пользователя.";
+	public static final String  year_is_null = "Поле год не имеет ни каких значений";
+	public static final String  day_is_null = "Поле день не имеет ни каких значений";
+	public static final String  day_is_false = "Такого дня нет в этом месяце! ";
+	public static final String  month_is_null = "Поле месяц не имеет ни каких значений";
+	public static final String  month_is_false = "Не известный месяц по Григорианскому календдарю";
+	public static final String  month_is_false_info = "Вы указали дату из будущего, человек еще не родился.";
+	public static final String  error_age = "Указан не корректный год \nГод рождения не может быть более 140 летней давности, и не может быть позднее текущего года";
 	
 	
-	
+	/**
+	 * to_print - метод отображения текстовых сообщений, в читаемом представлении через консоль
+	 * @param message - передаваемое сообщение для дальнейшего отображения в консоли
+	 */
 	public static void to_print(String message) {
 		System.out.println(message);
 	}

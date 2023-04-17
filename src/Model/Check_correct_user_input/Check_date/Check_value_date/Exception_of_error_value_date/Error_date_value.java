@@ -1,5 +1,9 @@
 package Model.Check_correct_user_input.Check_date.Check_value_date.Exception_of_error_value_date;
 
+/**
+ *  Данный класс описывает исключение, которое возбуждают при неудачной проверке
+ *  значений , указанных в строчной переменной даты
+ */
 public class Error_date_value extends RuntimeException{
 	
 	

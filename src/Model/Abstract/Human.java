@@ -4,7 +4,6 @@ public abstract class Human implements Callable,Bornable {
 	private String last_name;
 	private String first_name;
 	private String patronymic;
-	private char gender;
 	
 	
 	public Human(String[] full_name) {
@@ -45,13 +44,7 @@ public abstract class Human implements Callable,Bornable {
 	public void setPatronymic(String patronymic) {
 		this.patronymic = patronymic;
 	}
-	public Character getGender() {
-		return gender;
-	}
-	
-	public void setGender(Character gender) {
-		this.gender = gender;
-	}
+
 	
 	
 	public abstract void add_date(String date);

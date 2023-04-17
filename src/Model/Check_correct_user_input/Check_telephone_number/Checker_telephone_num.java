@@ -5,7 +5,17 @@ import View.Console_terminal.Printer;
 
 import java.util.NoSuchElementException;
 
+/**
+ * Класс, экземпляр которого проверяет, соответствует ли строка , телефонному номеру, в случае неудачи проверок, возбуждает исключения.
+ */
 public class Checker_telephone_num {
+	/**
+	 *
+	 * @param user - массив данных о пользователе
+	 * @throws Error_telephone_number_input - исключение с кривыми данными в строке
+	 * @throws NullPointerException - исключение с пустого массива данных о пользователе
+	 * @throws NoSuchElementException - исключение, если массив не пуст, но ячейка с номером ссылается на null
+	 */
 	public void run_check(String[] user) throws Error_telephone_number_input,NullPointerException,NoSuchElementException {
 		if (user == null) {
 			throw new NullPointerException(Printer.null_enter);

@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="seven commit _ firs start готова сырая версия приложения, далее добатотка возникающих исключений.">
-      <change afterPath="$PROJECT_DIR$/src/Model/Local_file/Chirkov" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Exit_application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Exit_application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/User_input_console_1/Inputer_for_console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User_input_console_1/Inputer_for_console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Write_to_local_file/Check_exist/Check_exist_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Check_exist/Check_exist_file.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Write_to_local_file/Write_to_local_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Write_to_local_file.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Add_current_name_in_exist_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Add_current_name_in_exist_file.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Write_new_lastname_file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Write_new_lastname_file.java" afterDir="false" />
+    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="приложение почти завершено, осталась финальная тестировка работоспособности &#10; исключений.">
+      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Check_format_date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Abstract/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Check_date_input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Exception_of_error_enter_date/Error_date_format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Exception_of_error_enter_date/Error_date_format.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_month.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_years.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Exception_of_error_value_date/Error_date_value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Exception_of_error_value_date/Error_date_value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Checker_date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Checker_value_date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Check_gender_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Check_gender_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Checker_gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Checker_gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Exception_of_error_enter_gender/Error_gender_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Exception_of_error_enter_gender/Error_gender_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Check_string_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Check_string_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Checker_full_name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Checker_full_name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Exception_of_error_enter_name/Error_name_format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Exception_of_error_enter_name/Error_name_format.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Check_size_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Check_size_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Checker_size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Checker_size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Exception_of_error_size_array/Error_size_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Exception_of_error_size_array/Error_size_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Check_telephone_number_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Check_telephone_number_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Checker_telephone_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Checker_telephone_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Exception_of_error_enter_telephone_number/Error_telephone_number_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Exception_of_error_enter_telephone_number/Error_telephone_number_input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Console_terminal/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Console_terminal/Printer.java" afterDir="false" />
     </list>
@@ -99,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681722055366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="приложение почти завершено, осталась финальная тестировка работоспособности &#10; исключений.">
+      <created>1681737704303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681737704303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +152,7 @@
     <MESSAGE value="four commit определяю модели, пока выстраиваю структуру приложения" />
     <MESSAGE value="five commit доработал проверку ввода корректной даты, проверку на ввод телефона пока не планирую" />
     <MESSAGE value="seven commit _ firs start готова сырая версия приложения, далее добатотка возникающих исключений." />
-    <option name="LAST_COMMIT_MESSAGE" value="seven commit _ firs start готова сырая версия приложения, далее добатотка возникающих исключений." />
+    <MESSAGE value="приложение почти завершено, осталась финальная тестировка работоспособности &#10; исключений." />
+    <option name="LAST_COMMIT_MESSAGE" value="приложение почти завершено, осталась финальная тестировка работоспособности &#10; исключений." />
   </component>
 </project>

@@ -1,7 +1,7 @@
 package Presenter.Console_terminal;
 
 import Model.Check_correct_user_input.Check_date.Check_value_date.Exception_of_error_value_date.Error_date_value;
-import Model.Check_correct_user_input.Check_date.Checker_date;
+import Model.Check_correct_user_input.Check_date.Check_value_date.Checker_value_date;
 import Model.Check_correct_user_input.Check_date.Check_format_date.Exception_of_error_enter_date.Error_date_format;
 import Model.Check_correct_user_input.Check_gender.Checker_gender;
 import Model.Check_correct_user_input.Check_name_input.Checker_full_name;
@@ -21,13 +21,18 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/**
+ * Класс, экземпляр которого, реализует требуемое в описание приложение
+ */
 public class Application {
 	private String[] user;
 	private String string;
 	
 	
-	
-	
+	/**
+	 * Метод, запускающий реализацию приложения, в котором
+	 * обрабатываются все возникающие в процессе исключения
+	 */
 	public void run() {
 		boolean runing = true;
 		try (Scanner scanner = new Scanner(System.in)) {
@@ -39,10 +44,11 @@ public class Application {
 				string = new Inputer_for_console(scanner).u_input();
 				user = string.split(" ");
 				new Checker_size().run_check(user);
-				new Checker_date().run_check(user);
+				new Checker_value_date().run_check(user);
 				new Checker_full_name().run_check(user);
 				new Checker_gender().run_check(user);
 				new Checker_telephone_num().run_check(user);
+				Printer.to_print(Printer.done);
 				User user1 = new User(user);
 				new Write_to_local_file().writex(user1);
 			}
