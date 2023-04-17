@@ -13,8 +13,10 @@ import Model.Check_correct_user_input.Check_telephone_number.Exception_of_error_
 import Model.Exit_application;
 import Model.User;
 import Model.User_input_console_1.Inputer_for_console;
+import Model.Write_to_local_file.Write_to_local_file;
 import View.Console_terminal.Printer;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -42,8 +44,7 @@ public class Application {
 				new Checker_gender().run_check(user);
 				new Checker_telephone_num().run_check(user);
 				User user1 = new User(user);
-				
-				
+				new Write_to_local_file().writex(user1);
 			}
 		} catch (Error_size_array e) {
 			throw new Error_size_array(e.getMessage() + "\n" + Arrays.toString(e.getStackTrace()));
@@ -59,6 +60,8 @@ public class Application {
 			throw new NullPointerException(nullPointerException.getMessage() + "\n" + Arrays.toString(nullPointerException.getStackTrace()));
 		} catch (Error_date_value error_date_value) {
 			throw new Error_date_value(error_date_value.getMessage() + "\n" + Arrays.toString(error_date_value.getStackTrace()), error_date_value.getCause());
+		} catch (IOException e) {
+			throw new RuntimeException(e);
 		}
 	}
 	

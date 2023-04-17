@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="five commit доработал проверку ввода корректной даты, проверку на ввод телефона пока не планирую">
-      <change afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Check_exist/Check_exist_file.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Write_to_local_file.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Add_current_name_in_exist_file.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Write_to_local_file/Writing_user/Write_new_lastname_file.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Abstract/Bornable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Bornable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Abstract/Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Abstract/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_years.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Checker_size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Checker_size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="four commit определяю модели, пока выстраиваю структуру приложения">
       <change beforePath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +91,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="wch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
