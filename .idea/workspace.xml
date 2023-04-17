@@ -4,35 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="third commit определяю модели, пока выстраиваю структуру приложения">
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Exception_of_error_enter_date/Error_date_format.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Check_value_years.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Exception_of_error_value_date/Error_date_value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Checker_date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Checker_gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Exception_of_error_enter_gender/Error_gender_input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Checker_full_name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Exception_of_error_enter_name/Error_name_format.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Check_size_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Checker_size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_size_data/Exception_of_error_size_array/Error_size_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Checker_telephone_num.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Exception_of_error_enter_telephone_number/Error_telephone_number_input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Exit_application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+    <list default="true" id="fdda5188-06a1-40d3-94a1-f8f229552d28" name="Changes" comment="four commit определяю модели, пока выстраиваю структуру приложения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract/Bornable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Bornable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract/Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Abstract/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_format_date/Check_date_input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_gender/Check_gender_input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_string_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_name_input/Check_string_input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_telephone_number/Check_telephone_number_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Exception_of_error_value_date/Error_date_value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Check_value_date/Exception_of_error_value_date/Error_date_value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Checker_date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check_correct_user_input/Check_date/Checker_date.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presenter/Console_terminal/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Console_terminal/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Console_terminal/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681593394456</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="four commit определяю модели, пока выстраиваю структуру приложения">
+      <created>1681679975741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681679975741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="two commit определяю модели" />
     <MESSAGE value="third commit определяю модели, пока выстраиваю структуру приложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit определяю модели, пока выстраиваю структуру приложения" />
+    <MESSAGE value="four commit определяю модели, пока выстраиваю структуру приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="four commit определяю модели, пока выстраиваю структуру приложения" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package Presenter.Console_terminal;
 
+import Model.Check_correct_user_input.Check_date.Check_value_date.Exception_of_error_value_date.Error_date_value;
 import Model.Check_correct_user_input.Check_date.Checker_date;
 import Model.Check_correct_user_input.Check_date.Check_format_date.Exception_of_error_enter_date.Error_date_format;
 import Model.Check_correct_user_input.Check_gender.Checker_gender;
@@ -53,6 +54,8 @@ public class Application {
 			throw new IllegalArgumentException(Printer.error_input + "\n" + Arrays.toString(suchElementException.getStackTrace()));
 		} catch (NullPointerException nullPointerException) {
 			throw new NullPointerException(nullPointerException.getMessage() + "\n" + Arrays.toString(nullPointerException.getStackTrace()));
+		} catch (Error_date_value error_date_value) {
+			throw new Error_date_value(error_date_value.getMessage() + "\n" + Arrays.toString(error_date_value.getStackTrace()), error_date_value.getCause());
 		}
 	}
 	
