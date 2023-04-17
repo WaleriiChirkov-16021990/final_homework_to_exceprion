@@ -30,8 +30,14 @@ public class Printer {
 	public static final String error_create_file = "\n Ошибка при создании файла: ";
 	public static final String path_to_local_file = "src/Model/Local_file/";
 	public static final String to_exit = "2";
+	public static final String to_exit_count = "Осталось попыток: ";
+	public static final String repeate_to_enter = "\nповторите ввод:  ";
+	public static final String getTo_exit_ = "\nРабота приложения успешно завершена! ";
+	public static final String to_enter_user = "1";
+	public static final String to_enter_user_error = "Введите 1 или 2, третьего пункта нет.";
 	public static final String scanner_is_crash = "Сканер не действителен!";
 	public static final String  not_date = "Отсутствует дата";
+	public static final String  not_scanner = "Получанный сканнер не инициализирован";
 	public static final String  not_gender_data = "Отсутствует переменная указывающая на половую принадлежность пользователя.";
 	public static final String  year_is_null = "Поле год не имеет ни каких значений";
 	public static final String  day_is_null = "Поле день не имеет ни каких значений";
