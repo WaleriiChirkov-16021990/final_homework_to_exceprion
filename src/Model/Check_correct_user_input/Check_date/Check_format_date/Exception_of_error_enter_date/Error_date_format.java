@@ -1,5 +1,9 @@
 package Model.Check_correct_user_input.Check_date.Check_format_date.Exception_of_error_enter_date;
 
+/**
+ * экземпляр исключения создается в результате неудачной проверки формата записи даты в строковой
+ * переменной.
+ */
 public class Error_date_format extends RuntimeException{
 	
 	/**

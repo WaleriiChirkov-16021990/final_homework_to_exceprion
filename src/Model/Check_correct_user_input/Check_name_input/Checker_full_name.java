@@ -5,7 +5,18 @@ import View.Console_terminal.Printer;
 
 import java.util.NoSuchElementException;
 
+/**
+ * Класс проверки полного имени пользовтеля
+ */
 public class Checker_full_name {
+	
+	/**
+	 * метод проверки полного имени пользователя (ФИО)
+	 * @param user - пользователь в строчном массиве данных о нем
+	 * @throws Error_name_format - Исключение возникшее при проверке значений строки
+	 * @throws NullPointerException - исключение, возбуждаемое в случае , когда массив пользователя - пуст.
+	 * @throws NoSuchElementException - исключение, возбуждаемое в случае, когда идин из элементов массива, относящийся в ФИО - пуст.
+	 */
 	public void run_check(String[] user) throws Error_name_format,NullPointerException,NoSuchElementException{
 		if (user == null) {
 			throw new NullPointerException(Printer.null_enter);

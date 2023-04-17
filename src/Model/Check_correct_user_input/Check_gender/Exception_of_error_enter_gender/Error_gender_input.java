@@ -1,5 +1,8 @@
 package Model.Check_correct_user_input.Check_gender.Exception_of_error_enter_gender;
 
+/**
+ * Класс исключения, возбуждаемого в случае неверного указания пола пользователя
+ */
 public class Error_gender_input extends RuntimeException{
 	
 	/**
